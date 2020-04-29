@@ -14,10 +14,10 @@ const newMenu = new Schema ({
         type : String,
         required : true
     },
-    imageUrl : {
-        type : String,
-        required : true
-    }
+    // imageUrl : {
+    //     type : String,
+    //     required : true
+    // }
 })
 
 module.exports = mongoose.model("menu", newMenu)
